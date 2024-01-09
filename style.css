@@ -1,0 +1,52 @@
+body {
+    background-color: #fff;
+}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper > *{
+    padding: 10px;
+    margin: 5px;
+    flex: 1 100%;
+    
+}
+
+.header {
+    background-color: aquamarine;
+    height: 80px;
+
+}
+
+.footer {
+    background-color: plum;
+    height: 70px;
+}
+.main {
+    background-color: blueviolet;
+    height: 300px;
+}
+.slide1 {
+    background-color: orange;
+    height: 300px;
+
+}
+.slide2 {
+    background-color: yellow;
+    height: 120px;
+}
+.slide2 {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+@media all and (min-width: 800px){
+
+.main {
+    flex:3;
+}
+.slide1{
+    flex: 1;
+}
